@@ -1,0 +1,47 @@
+.body{
+    overflow: hidden;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+/* Começo do Cabeçalho*/
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    background-color: #FFFFFF;
+    width: 90%;
+}
+.menu{
+    display: flex;
+    justify-content:space-between;
+    width: 10%;
+}
+
+/* Fim do Cabeçalho*/
+/* Começo do Banner*/
+
+.banner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+
+/* Fim do Banner*/
+
+.content{
+    display: flex;
+    justify-content: center;
+    border-style: dashed;
+    margin: 15px 0 15px 0;
+}
+.foter{
+    display: flex;
+    justify-content: center;
+    border-style: dashed;
+    margin: 15px 0 15px 0;
+}
