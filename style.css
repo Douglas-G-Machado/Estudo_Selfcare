@@ -1,21 +1,25 @@
 .body{
-    overflow: hidden;
     margin: 0%;
     height: 100%;
     width: 100%;
 }
 
 /* Começo do Cabeçalho*/
-
+.headerSetup{
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    width: 100%; 
+}
 .header{
     display: flex;
     justify-content:space-between;
-    background-color: #FFFFFF;
-    width: 90%;
+    align-items: center;
+    width: 95%;
 }
 .menu{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     width: 10%;
 }
 
