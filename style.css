@@ -44,10 +44,17 @@
 /* Fim do Banner*/
 
 .content{
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    border-style: dashed;
-    margin: 15px 0 15px 0;
+    flex-direction: column;
+    padding: 10px;
+}
+.ProdutosInfo{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
 }
 .foter{
     display: flex;
