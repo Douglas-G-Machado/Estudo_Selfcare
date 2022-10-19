@@ -17,6 +17,12 @@
     align-items: center;
     width: 95%;
 }
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Lato', sans-serif;
+}
 .menu{
     display: flex;
     justify-content:space-around;
