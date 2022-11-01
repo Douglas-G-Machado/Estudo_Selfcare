@@ -48,10 +48,9 @@
 /* Fim do Banner*/
 
 .content {
-    max-width: 1000px;
     min-width: 300px;
+    width: auto;
     height: 1600px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -70,6 +69,8 @@
     display: grid;
     grid-template-columns: 25% 25% 25%;
     gap: 10%;
+    justify-items: center;
+    justify-content: space-evenly;
 }
 
 .Produto {
@@ -78,15 +79,16 @@
 
 }
 
-.Newsleatter {
-    display: flex;
-}
-
 .foter {
-    display: flex;
     height: 348px;
+    width: auto;
+    margin: 0px 2%;
     left: -6px;
     top: 2037px;
-
     background: #F9F9F9;
+}
+.foterSetup{
+    display: flex;
+    justify-content: space-between;
+    height: 216px;
 }
